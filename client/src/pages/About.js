@@ -8,15 +8,14 @@ function About() {
   return (
     <div>
       <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>SkillRise</h1>
-        <h2>Transforming Lives through the Essentials of 
-Personality, Passion and Soft Skills
+        <h1>The Kennel</h1>
+        <h2>Looking for a new puppy? Look no further... this is the tinder of matching you up with man's best friend
 </h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To SkillRise!</h1>
+            <h1>Welcome To The-Kennel</h1>
           </Col>
         </Row>
         <Row>
