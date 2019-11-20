@@ -21,26 +21,19 @@ function About() {
         <Row>
           <Col size="md-12">
             <p>
-              SkillRise, LLC was established in 2003 as a{" "}
-              <strong>training and motivational</strong> organization designed
-              to enlighten people who are stuck; in their jobs, careers, after
-              retirement or stuck in life. We empower people with innovative
-              tools to discover “who they really are” through{" "}
+              The Kennel is a place where we link you, a dog lover... with the right breed in K9 pups.
+              <strong>All pure breds</strong> Enjoy our tinder like app that helps you choose the right dog that matches your personality and environment.
               <strong>
-                Personality, Passion and Soft Skills (Power Skills).
+                These dogs will choose you as well according to how their breeds matches up with their predecessors owners, with strong lineage.
               </strong>
             </p>
             <p>
-              To meet this objective SkillRise offers life-changing workshops,
-              seminars, training programs and Chat Books that addresses the
-              concerns of life and reveal our natural talents, abilities and
-              spiritual gifts. We motivate people to feel more fulfilled in
-              life, understand how they fit in the global society and how their
-              abilities can make a difference in the world.
+              Our selections range from different groups like Terriers to Herding dogs. We also consider the Activity level 
+              Barking level, characterist, coat type, size, and most importantly trainability. 
             </p>
             <p>
-              If you feel stuck in your job, career or life, please sign up to
-              receive a one-on-one complimentary dialog on how to get un-stuck!
+              You can swipe on the discover part of the app or if you are already knowledgeable in what you may want, simply type in the search. 
+              The kennel was made to be a matchmaker in dog lover heaven. Enjoy. 
             </p>
           </Col>
         </Row>
