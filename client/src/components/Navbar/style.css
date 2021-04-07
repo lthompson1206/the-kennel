@@ -1,3 +1,35 @@
+.navbar {
+  background: transparent;
+  background-color: rgba(0,0,0,0.0);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+ 
+
+}
+
+.navbar.active {
+  background: linear-gradient(90deg, rbg(66, 2, 194), 0%, rbg(0, 78, 194) 100%);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+  
+}
+
 nav.navbar.navbar-default {
   margin-bottom: 0;
+}
+
+.navbar-nav {
+  align-items: right;
 }

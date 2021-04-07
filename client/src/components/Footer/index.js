@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>SkillRise 2020</span>
+      <span><i class="far fa-copyright">2021 Created by Lamont Thompson</i></span>
     </footer>
   );
 }

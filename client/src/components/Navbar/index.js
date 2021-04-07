@@ -1,17 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
 import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        The Kennel
+    <nav className="navbar active navbar-expand-lg navbar-light">
+      <Link className="navbar-brand text-white"  to="/">
+      <i class="fas fa-paw"> The Kennel</i>
+       
       </Link>
       <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
+        <ul className="navbar-nav ">
+          <li className="nav-item ">
             <Link
               to="/"
               className={

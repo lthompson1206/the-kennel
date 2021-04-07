@@ -3,23 +3,33 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import BlockQuoteCards from "../components/BlockQuoteCards";
+
+
 
 function About() {
   return (
+    
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>The Kennel</h1>
-        <h2>Looking for a new puppy? Look no further... this is the tinder of matching you up with man's best friend
-</h2>
+      
+      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg" no-repeat center center fixed >
+        <h1>MAN'S B.F.F.!!</h1>
+        <h2>Looking for a new puppy?</h2>
+        <h2>Shop for puppies & breeds just for you</h2>
+
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
             <h1>Welcome To The-Kennel</h1>
           </Col>
+          <Row>
+
+          </Row>
         </Row>
         <Row>
           <Col size="md-12">
+         
             <p>
               The Kennel is a place where we link you, a dog lover... with the right breed in K9 pups.
               <strong>All pure breds</strong> Enjoy our tinder like app that helps you choose the right dog that matches your personality and environment.
@@ -36,6 +46,9 @@ function About() {
               The kennel was made to be a matchmaker in dog lover heaven. Enjoy. 
             </p>
           </Col>
+        </Row>
+        <Row>
+ <BlockQuoteCards />
         </Row>
       </Container>
     </div>

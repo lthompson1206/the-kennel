@@ -3,6 +3,7 @@ import API from "../utils/API";
 import Card from "../components/Card";
 import Alert from "../components/Alert";
 
+
 class Discover extends Component {
   state = {
     image: "",
@@ -56,7 +57,8 @@ class Discover extends Component {
         <h3 className="text-center">
           Thumbs up on any pups you'd like to meet!
         </h3>
-        <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
+       
+        <Card image={this.state.image} handleBtnClick={this.handleBtnClick}  />
         <h1 className="text-center">
           Made friends with {this.state.matchCount} pups so far!
         </h1>
