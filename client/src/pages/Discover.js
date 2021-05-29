@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Hero from "../components/Hero";
 import API from "../utils/API";
 import Card from "../components/Card";
 import Alert from "../components/Alert";
@@ -53,6 +54,7 @@ class Discover extends Component {
   render() {
     return (
       <div>
+        <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg" no-repeat center center fixed ></Hero>
         <h1 className="text-center">Make New Friends</h1>
         <h3 className="text-center">
           Thumbs up on any pups you'd like to meet!

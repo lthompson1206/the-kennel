@@ -3,7 +3,7 @@
   background-color: rgba(0,0,0,0.0);
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
@@ -33,3 +33,7 @@ nav.navbar.navbar-default {
 .navbar-nav {
   align-items: right;
 }
+
+nav .navbar-nav li a{
+  color: white !important;
+  }
