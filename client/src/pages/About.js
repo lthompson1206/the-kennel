@@ -24,7 +24,7 @@ function About() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            {/* <h1>Welcome To The-Kennel</h1> */}
+            <h1>Welcome To The-Kennel</h1>
           </Col>
           <Row>
 
@@ -37,7 +37,7 @@ function About() {
           </Col>
         </Row>
         <Row>
- <BlockQuoteCards />
+ {/* <BlockQuoteCards /> */}
         </Row>
       </Container>
     </div>

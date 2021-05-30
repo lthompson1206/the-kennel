@@ -8,7 +8,7 @@
   color: #FFF;
   font-size: 24px;
   cursor: pointer;
-  font-family: FontAwesome;
+  font-family: FontAwesome 5 Free;
   outline: none;
 }
 
@@ -18,7 +18,9 @@
 }
 
 .pass::after {
-  content: "\f165";
+  z-index: 10;
+  visibility: hidden;
+  content: "\f1b0"; font-family: “Font Awesome 5 Free“; font-weight: normal;
 }
 
 .pick {
@@ -27,8 +29,11 @@
 }
 
 .pick::after {
-  content: "\f164";
+  z-index: 10;
+  visibility: hidden;
+  content: "\f1b0"; font-family: “Font Awesome 5 Free“; font-weight: 900;
 }
+/* https://flaviocopes.com/css-z-index/ */
 
 .pick:hover::after, .pass:hover::after {
   animation: iconBounce .57s 1;

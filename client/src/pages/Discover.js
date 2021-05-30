@@ -3,6 +3,9 @@ import Hero from "../components/Hero";
 import API from "../utils/API";
 import Card from "../components/Card";
 import Alert from "../components/Alert";
+import Container from "../components/Container";
+import Row from "../components/Row";
+import Col from "../components/Col";
 
 
 class Discover extends Component {
@@ -53,20 +56,28 @@ class Discover extends Component {
 
   render() {
     return (
-      <div>
-        <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg" no-repeat center center fixed ></Hero>
-        <h1 className="text-center">Make New Friends</h1>
+      <div  style={{
+        backgroundColor: 'black'
+       
+      }}>
+       {/* <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg" no-repeat center center fixed > */}
+       
         <h3 className="text-center">
-          Thumbs up on any pups you'd like to meet!
+        
         </h3>
        
         <Card image={this.state.image} handleBtnClick={this.handleBtnClick}  />
         <h1 className="text-center">
-          Made friends with {this.state.matchCount} pups so far!
+          {/* Made friends with {this.state.matchCount} pups so far! */}
         </h1>
         <Alert style={{ opacity: this.state.match ? 1 : 0 }} type="success">
           Yay! That Pup Liked You Too!!!
         </Alert>
+       
+       
+
+      {/* </Hero> */}
+      
       </div>
     );
   }

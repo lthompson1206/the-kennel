@@ -21,7 +21,8 @@ function Card(props) {
         onClick={props.handleBtnClick}
         data-value="pass"
       ><i class="fas fa-paw"></i></CardBtn>
-      <CardBtn
+     
+     <CardBtn
         style={{ opacity: props.image ? 1 : 0 }}
         onClick={props.handleBtnClick}
         data-value="pick"
