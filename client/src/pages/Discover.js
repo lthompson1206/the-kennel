@@ -22,7 +22,7 @@ class Discover extends Component {
 
   handleBtnClick = event => {
     // Get the data-value of the clicked button
-    const btnType = event.target.attributes.getNamedItem("data-value").value;
+    const btnType = event.target.getAttribute("data-value");
     // Clone this.state to the newState object
     // We'll modify this object and use it to set our component's state
     const newState = { ...this.state };
